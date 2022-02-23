@@ -1,0 +1,576 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Playfair+Display:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Bad Script', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background: radial-gradient(#909090, #D7D7D7);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .top{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.footer .top p{
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+.footer .orta{
+  color: #fff;
+  display: flex;
+  margin: 20px 0;
+ 
+}
+.footer .orta .padd{
+margin: 0 10px;
+font-size: 25px;
+}
+.footer .past p{
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+}
+/* .imageProfil{
+  width: 783px;
+  height: 877px;
+  object-fit: cover;
+  overflow: hidden;
+} */
+.imagee{
+  min-height: 90vh;
+  width: 100%;  position: relative;
+}
+.imagee .orqafon{
+  background-image: url('../public/Rectangle 67.png');
+  width: 60%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-position: right right; */
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background: #2b2d42;
+}
+.imagee{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.imagee .textlar{
+  
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.imagee .textlar p{
+    margin-bottom: 50px;
+}
+.imagee .uptext{
+  color: #fbfaf7;
+  text-transform: capitalize;
+  font-size: 19px;
+}
+.imagee #ortatext{
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.imagee p{
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+.imagee .iconlarr .textIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C4C4C4;
+    padding: 10px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px #26232394;
+    
+}
+.imagee .iconlarr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  background: #CDCCCC;
+  width: 100%;
+  height: 120vh;
+  text-align: center;
+}
+.aboutme .aboutHeader{
+  text-align: center;
+  display: inline-block;
+}
+.aboutme .aboutHeader h1{
+padding: 8px 8px;
+display: inline-block;
+border: 3px solid #000;
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-top: 40px;
+margin-bottom: 45px;
+}
+/* portfolio */
+.portfolio .aboutHeader{
+  text-align: center;
+  display: inline-block;
+}
+.portfolio .aboutHeader h1{
+padding: 8px 8px;
+display: inline-block;
+border: 3px solid #000;
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-top: 40px;
+margin-bottom: 45px;
+}
+/* portfolio */
+.aboutme .textabout p{
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.aboutme  .textabout span{
+    margin: 20px 0;
+    display: inline-block;
+
+}
+.aboutme  .textabout .rasm{
+  margin-top: 20px;
+}
+.aboutme .rasmiconka{
+  margin-top: 50px;
+}
+/* kotta div///////////// */
+.kottadiv{
+  margin-top: 70px;
+}
+.kottadiv .ichkidiv{
+      display: flex;
+      justify-content: start;
+      
+}
+.kottadiv .ichkidiv2{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+}
+.kottadiv .ichkidiv2 .textstart{
+  padding: 0 50px;
+  text-align: start;
+  }
+.kottadiv .ichkidiv .chap{
+  padding: 0 50px;
+  text-align: start;
+  position: relative;
+}
+.kottadiv .ichkidiv .ong{
+  padding: 0 50px;
+  text-align: start;
+
+}
+.kottadiv .tepadanp{
+  margin-top: 30px;
+}
+/* Skills///////////////////// */
+.Skills{
+  display: flex;
+flex-direction: column;
+background: #CDCCCC;
+width: 100%;
+height: 180vh;
+text-align: center;
+}
+.Skills .aboutHeader{
+  text-align: center;
+  display: inline-block;
+}
+.Skills .aboutHeader h1{
+padding: 8px 8px;
+display: inline-block;
+border: 3px solid #000;
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-top: 40px;
+margin-bottom: 45px;
+font-size: 25px;
+}
+.Skills .skillscontent{
+  width: 60%;
+  margin: 0 auto;
+  text-align: start;
+}
+.Skills .skillscontent .pngrasmkotta .pngrasmlar {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+}
+.Skills .skillscontent .pngrasmkotta {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.Skills .skillscontent .pngrasmkotta .pngrasmlar p{
+  margin-top: 20px;
+}
+.skillscontent .title2{
+  margin: 50px 0;
+}
+/* portfolio/////////////////////////// */
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  background: #1A1A1A;
+  width: 100%;
+  height: 110vh;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+.portfolio .aboutHeader{
+  background-image: url("../public/image 12.png");
+  background-size: cover;
+  width: 100%;
+  height: 180px;
+  background-position: center bottom;
+}
+.portfolio .allbolim{
+  width: 100%;
+
+}
+.portfolio .allbolim .allrasmlar{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.portfolio .allbolim .allrasmlar .pngrasmla{
+  width: 400px;
+  height: 200px;
+}
+
+@media(max-width:425px){
+  
+}
+
+/* contact////////////////// */
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    padding-bottom: 100px;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+  margin-top: 50px;
+} 
+
+.form-control, textarea {
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px;
+  border: 2px solid white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+  position: relative;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -38px, 0px);  
+}
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 22px;
+}
+
+.phone {
+  margin-left: 22px;
+}
+
+.gmail {
+  margin-left: 22px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+  margin-top: 9px;
+  display: inline-block;
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px rgb(166, 33, 255);
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 11px;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container, .form-horizontal {
+    margin: 0 auto;
+  }  
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+
+  .direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }  
+  .form-control, textarea {
+    
+    margin: 0 auto;
+  }
+ 
+  
+  .name, .email, textarea {
+    width: 280px;
+  } 
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }  
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+  
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  color: rgb(228, 22, 255);
+}
+.place{
+  margin-left: 30px;
+}
+.list-item{
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+}
