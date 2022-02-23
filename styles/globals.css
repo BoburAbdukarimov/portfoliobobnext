@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -48,7 +48,6 @@ a {
   color: #fff;
   display: flex;
   margin: 20px 0;
- 
 }
 .footer .orta .padd{
 margin: 0 10px;
@@ -59,15 +58,10 @@ font-size: 25px;
   font-size: 19px;
   letter-spacing: 1.5px;
 }
-/* .imageProfil{
-  width: 783px;
-  height: 877px;
-  object-fit: cover;
-  overflow: hidden;
-} */
 .imagee{
   min-height: 90vh;
-  width: 100%;  position: relative;
+  width: 100%;  
+  position: relative;
 }
 .imagee .orqafon{
   background-image: url('../public/Rectangle 67.png');
@@ -81,7 +75,6 @@ font-size: 25px;
   position: absolute;
   top: 0;
   right: 0;
-  /* background-position: right right; */
 }
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
   background: #2b2d42;
@@ -297,11 +290,6 @@ font-size: 25px;
   width: 400px;
   height: 200px;
 }
-
-@media(max-width:425px){
-  
-}
-
 /* contact////////////////// */
 
 .contact {
@@ -346,7 +334,7 @@ font-size: 25px;
   letter-spacing: 1px;
   padding: 10px;
   border: 2px solid white;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 5px;
 }
 
@@ -526,10 +514,8 @@ hr {
   }  
   .form-control, textarea {
     
-    margin: 0 auto;
+    margin: 10px auto;
   }
- 
-  
   .name, .email, textarea {
     width: 280px;
   } 
@@ -573,4 +559,99 @@ hr {
   display: flex;
   justify-content: start;
   margin-top: 50px;
+}
+
+
+/* polni responsive ligi//////////// */
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url('../public/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .imagee .orqafon {
+    background-image: none;
+    width: 90%;
+}
+.footer .past p {
+  text-align: center;
+}
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  background: #CDCCCC;
+  width: 100%;
+  height: 190vh;
+  text-align: center;
+}
+.kottadiv .ichkidiv{
+  display: flex;
+  flex-direction: column;
+}
+.kottadiv .ichkidiv2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.kottadiv .ichkidiv .ong {
+  padding: 0 50px;
+  text-align: start;
+  margin-top: 30px;
+}
+.aboutme .textabout p {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+.portfolio .allbolim .allrasmlar {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  background: #1A1A1A;
+  width: 100%;
+  height: 260vh;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+.Skills{
+  display: flex;
+flex-direction: column;
+background: #CDCCCC;
+width: 100%;
+height: 555vh;
+text-align: center;
+}
+.Skills .skillscontent .pngrasmkotta {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.contact .section-header{
+  padding: 8px 8px;
+  display: inline-block;
+  border: 3px solid rgb(189, 21, 255);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 45px;
+  font-size: 35px;
+}
+.contact{
+  text-align: center;
+}
+.social-media-list li a {
+  color: #fff;
+  margin-top: 5px;
+  display: inline-block;
+}
 }
