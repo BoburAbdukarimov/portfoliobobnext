@@ -11,17 +11,8 @@ function About() {
                         Sed ornare sit amet lorem<br/> sed viverra. In vel urna quis
                         libero viverra facilisis ut ac est.
                 </p>
-                <span className="imgbutton">
-                    <Image 
-                    src={button}
-                    />
-                </span>
-                <div className="rasm">
-                    <Image
-                        src={imageabout}
-                        className="rasmm"
-                        />
-                </div>
+                <span className="imgbutton"><Image src={button}/></span>
+                <div className="rasm"><Image src={imageabout}className="rasmm"/></div>
             </div>
             {/* malumotlar/////////// */}
             <div className="kottadiv">
@@ -46,11 +37,7 @@ function About() {
                     
                 </div>
             </div>
-            <div className="rasmiconka">
-                    <Image 
-                    src={imageabout}
-                    />
-                </div>
+            <div className="rasmiconka"><Image src={imageabout}/></div>
         </div>
         
     )
