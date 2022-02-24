@@ -10,8 +10,8 @@ import CodeIcon from '@mui/icons-material/Code';
 
 function Contact() {
     return(
-        <div className="contactt">
-            <section className="contact">
+        
+            <div className="contact">
     <h1 className="section-header">Contact</h1>
     <div className="contact-wrapper">
     <form  action="https://formspree.io/f/mvolajar" method="POST" id="contact-form" className="form-horizontal" role="form">
@@ -31,8 +31,6 @@ function Contact() {
             <ForwardToInboxIcon/><span className="send-text">SEND</span>
             </div>        
         </button>
-        <div className="field" data-netlify-recaptcha="true">
-        </div>
     </form>
         <div className="direct-contact-container">
         <ul className="contact-list">
@@ -61,8 +59,7 @@ function Contact() {
         <div className="copyright"> ALL OF THE RIGHTS RESERVED</div>
         </div>
     </div>
-</section>  
-        </div>
+</div>  
     )
 }
 export default Contact;
