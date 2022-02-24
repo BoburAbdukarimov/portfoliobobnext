@@ -486,10 +486,7 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .direct-contact-container, .form-horizontal {
-    margin: 0 auto;
-  }  
-  
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
@@ -582,7 +579,7 @@ hr {
   flex-direction: column;
   background: #CDCCCC;
   width: 100%;
-  height: 190vh;
+  height: 141vh;
   text-align: center;
 }
 .kottadiv .ichkidiv{
@@ -619,7 +616,7 @@ hr {
   flex-direction: column;
   background: #1A1A1A;
   width: 100%;
-  height: 260vh;
+  height: 196vh;
   text-align: center;
   border-bottom: 2px solid #444;
 }
@@ -628,7 +625,7 @@ hr {
 flex-direction: column;
 background: #CDCCCC;
 width: 100%;
-height: 555vh;
+height: 419vh;
 text-align: center;
 }
 .Skills .skillscontent .pngrasmkotta {
@@ -639,7 +636,7 @@ text-align: center;
 .contact .section-header{
   padding: 8px 8px;
   display: inline-block;
-  border: 3px solid rgb(189, 21, 255);
+  border: 3px solid rgb(108 108 108);
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-top: 40px;
@@ -653,5 +650,8 @@ text-align: center;
   color: #fff;
   margin-top: 5px;
   display: inline-block;
+}
+.contactt{
+  width: 100%;
 }
 }
