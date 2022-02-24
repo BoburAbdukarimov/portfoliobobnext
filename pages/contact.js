@@ -14,7 +14,7 @@ function Contact() {
             <section className="contact">
     <h1 className="section-header">Contact</h1>
     <div className="contact-wrapper">
-    <form action="https://formsubmit.co/18f0a686daeb6f3317edab9f0184737" method="POST" id="contact-form" className="form-horizontal" role="form">
+    <form  action="https://formspree.io/f/mvolajar" method="POST" id="contact-form" className="form-horizontal" role="form">
         <div className="form-group">
             <div className="col-sm-12">
             <input type="text" className="form-control" id="name" placeholder="NAME" name="name" required/>
@@ -40,7 +40,7 @@ function Contact() {
             <li className="list-item"><LocalPhoneIcon/><span className="contact-text phone"><a href="#" title="Give me a call">(212) 555-2368</a></span></li>           
             <li className="list-item"><MarkEmailReadIcon/><span className="contact-text gmail"><a href="#" title="Send me an email">hitmeup@gmail.com</a></span></li>           
         </ul>
-
+        {/* 18f0a686daeb6f3317edab9f0184737 */}
         <hr/>
         <ul className="social-media-list">
             <li><a href="#" target="_blank" className="contact-icon">
