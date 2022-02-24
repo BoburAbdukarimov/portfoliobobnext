@@ -485,8 +485,13 @@ hr {
   .contact-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
+  .direct-contact-container, .form-horizontal {
+  width: 400px;
+  }  
+  
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
@@ -508,7 +513,9 @@ hr {
   .direct-contact-container, .form-wrapper {
     float: none;
     margin: 0 auto;
+
   }  
+
   .form-control, textarea {
     
     margin: 10px auto;
@@ -636,7 +643,7 @@ text-align: center;
 .contact .section-header{
   padding: 8px 8px;
   display: inline-block;
-  border: 3px solid rgb(108 108 108);
+  border: 3px solid rgb(189, 21, 255);
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-top: 40px;
@@ -655,3 +662,4 @@ text-align: center;
   width: 100%;
 }
 }
+
