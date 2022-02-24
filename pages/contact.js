@@ -14,7 +14,7 @@ function Contact() {
             <section className="contact">
     <h1 className="section-header">Contact</h1>
     <div className="contact-wrapper">
-    <form action="" id="contact-form" className="form-horizontal" role="form" method="POST" data-netlify="true">
+    <form action="https://formsubmit.co/18f0a686daeb6f3317edab9f0184737" method="POST" id="contact-form" className="form-horizontal" role="form">
         <div className="form-group">
             <div className="col-sm-12">
             <input type="text" className="form-control" id="name" placeholder="NAME" name="name" required/>
