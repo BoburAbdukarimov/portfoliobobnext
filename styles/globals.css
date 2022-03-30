@@ -570,9 +570,9 @@ hr {
   margin-top: 50px;
 }
 /* polni responsive ligi//////////// */
-@media (max-width: 426px) {
+@media (min-width: 400px) {
   body {
-    background-image: url('../public/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');
+    background-image: url('../public/kostyum-iz-igry-v-kalmara-squid-game_4.jpg');
     width: 100%;
     height: 100%;
     background-size: cover;
