@@ -661,7 +661,7 @@ text-align: center;
 
 }
 }
-@media (min-width:400px) and (max-width:768px){
+@media (min-width:300px) and (max-width:768px){
   .form-horizontal {
     max-width: 350px;
     font-family: 'Lato';
